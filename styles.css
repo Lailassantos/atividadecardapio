@@ -1,66 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    width: 80%;
+    margin: 20px auto 20px auto;
+    background-color: black;
+    color: white;
+}
+
 h1{
-    font-size:  80px;
-    border: 3px solid yellow; margin-left: 600px; margin-right: 600px;
-    padding-top: 20px; padding-bottom: 20px;
+    font-size:  40px;
+    
+    color: white;
+    border: 3px solid yellow; 
     text-align: center;
     font-family:cursive 
 }
 
 .subtitulo{
-    font-size: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     text-align: center;
-    padding-left: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.opcao{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
 h2{
-    font-size: 60px;
+    font-size: 30px;
     font-style: italic;
     color: yellow;
-    padding-left: 500px;
 }
 
 p{
-    font-size: 40px;
-    padding-left: 500px;
+    font-size: 30px;
 }
 
 ul{
-    font-size: 40px;
-    padding-left: 500px; 
+    font-size: 20px;
 }
 
 h3{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
-    border: 3px dashed yellow; margin-left: 1000px; margin-right: 1000px;
-    padding-top: 20px; padding-bottom: 20px;
-
+    border: 3px dashed yellow;
+    padding: 20px;
+    margin: 10px 300px 10px 300px
 }
 
 h4{
-    font-size: 40px;
+    font-size: 20px;
     text-align: center;
+    margin: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div{
-    position: relative;
-}
-
 .feijao{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid yellow;
-    position: absolute; right: 500px; top: 0px;
+    
 }
 
 .frango{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid yellow;
-    position: absolute; right: 500px;
+    
 }
