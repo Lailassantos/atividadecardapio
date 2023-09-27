@@ -28,7 +28,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.opcao{
+#opcao{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -79,4 +79,19 @@ h4{
     border-radius: 50%;
     border: 5px solid yellow;
     
+}
+
+@media all and (max-width:768px){
+#opcao, .acompanhamentos, h3{
+    display: block;
+    width: 80%; 
+    float: none;
+    text-align: center;
+    position: relative;
+    margin-left: 40px;
+    }
+
+h3{
+ margin-left: 10px;   
+}
 }
